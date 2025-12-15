@@ -1,0 +1,33 @@
+.uber{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem; /* WCAG recommends 1-1.125rem (Higher End, max -> 1.25rem for large buttons) */
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.uber:focus{
+    outline: 3px solid red;
+    outline-offset: 2px;
+}
+
+.amazon {
+    background-color: rgb(255, 216 , 20);
+    border: none;
+    padding: 0.75rem 5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.Github {
+    background-color: rgb(46, 164 , 79);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600; /* WCAG is 600 for better readability */
+}
